@@ -12,26 +12,6 @@ function homee(req,res){
 }
 //login
 async function getRequest(req,res){
-    // var uname=req.body.username;
-    // var pass=req.body.password;
-    // try{
-    //   const findingUser=await userSchema.findOne({username:uname});
-    //   if(findingUser!=null){
-    //     //user exists
-
-    //     //now we have to check given and stored password
-    //     // Load DB.
-    //     if(findingUser.password===pass){
-    //         res.send({status:"Login success",userType:findingUser.role});
-    //     }else if(findingUser.password!=pass){
-    //         res.send({status:"Invalid Password"});
-    //     }
-    //   }else{
-    //     res.send({status:"No user exist with given username"});
-    //   }
-    // }catch(err){
-    //   res.send("Error in finding user by username in db: "+err);
-    // }
     res.send("Here are all requests")
   }
 //create
